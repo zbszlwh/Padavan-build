@@ -1,4 +1,4 @@
-name: Build Padavan
+name: NETGEAR-BZV
 
 on: 
   release:
@@ -99,5 +99,5 @@ jobs:
       uses: actions/upload-artifact@master
       if: always()
       with:
-        name: Padavan-packages
+        name: NETGEAR-BZV
         path: /opt/images
